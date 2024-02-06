@@ -1,15 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+class Customer
+class Contacter(var id:Int, var email:String)
 fun main(){
-    var a:String = "Brasil"
-    a = "Argentina"
-    val b:Int = 10
-    val c = 1.5
 
-    fun nome(vararg messagens: String){
-        for (i in messagens) {
-            println(i)
-        }
-    }
-    nome("Hello", "Hallo", "Salut", "Hola")
+    val customer = Customer()
+    val contacter = Contacter(10, "Teste@email.com")
+    val estudosClasse = EstudosClasse()
+    estudosClasse.mostrar()
 }
